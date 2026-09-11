@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NIXIC | Comics</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#0a0a0d;color:#f5f5f5}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #24242a;position:sticky;top:0;background:#0a0a0df2;backdrop-filter:blur(10px)}
+.logo{font-size:30px;font-weight:900;letter-spacing:4px}.mark{color:#f1c40f}
+nav a{color:#ddd;text-decoration:none;margin:0 0 0 18px;font-size:14px}
+.hero{padding:90px 7% 75px;background:radial-gradient(circle at 75% 20%,#2b2410 0,#111 35%,#0a0a0d 70%);min-height:70vh;display:flex;align-items:center}
+.hero h1{font-size:clamp(50px,10vw,100px);margin:0 0 10px}.hero p{max-width:650px;color:#bbb;font-size:19px;line-height:1.8}
+.btn{display:inline-block;margin-top:20px;padding:14px 24px;background:#f1c40f;color:#111;text-decoration:none;font-weight:800;border-radius:8px}
+section{padding:65px 7%}.title{font-size:34px;margin-bottom:30px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#131318;border:1px solid #27272e;border-radius:14px;padding:25px;min-height:180px}.card h3{margin-top:0}.muted{color:#aaa;line-height:1.7}
+.comic{min-height:280px;display:flex;align-items:end;padding:25px;background:linear-gradient(145deg,#191919,#30270b);border-radius:14px;border:1px solid #3b351c}
+footer{padding:35px 7%;border-top:1px solid #24242a;color:#888;text-align:center}
+@media(max-width:650px){header{display:block}nav{margin-top:15px}.hero{padding-top:60px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">NIX<span class="mark">I</span>C</div>
+  <nav>
+    <a href="#home">الرئيسية</a><a href="#comics">الكوميكس</a><a href="#about">عن NIXIC</a><a href="#contact">تواصل</a>
+  </nav>
+</header>
+
+<main id="home">
+<section class="hero">
+<div>
+  <div class="muted">NIXIC • COMICS</div>
+  <h1>قصص تستحق أن تُروى.</h1>
+  <p>مرحبًا بك في NIXIC — مساحة لصناعة ونشر الكوميكس والقصص الأصلية. هنا تبدأ العوالم الجديدة.</p>
+  <a class="btn" href="#comics">اكتشف الكوميكس</a>
+</div>
+</section>
+
+<section id="comics">
+<h2 class="title">أعمال NIXIC</h2>
+<div class="grid">
+  <div class="comic"><div><h3>The Savior</h3><p class="muted">الجزء الأول • Universe 1111</p><a class="btn" href="#">قراءة الكوميكس</a></div></div>
+  <div class="card"><h3>قريبًا</h3><p class="muted">عالم جديد من NIXIC. تابع الموقع لمعرفة الأعمال القادمة.</p></div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">عن NIXIC</h2>
+<div class="card">
+<p class="muted">NIXIC شركة مستقلة متخصصة في صناعة ونشر الكوميكس والقصص الأصلية. هدفنا بناء عوالم وشخصيات لها هويتها الخاصة.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">تواصل</h2>
+<div class="card"><p class="muted">أضف هنا حسابات NIXIC على السوشيال ميديا أو بريد التواصل الرسمي عندما تكون جاهزة.</p></div>
+</section>
+</main>
+
+<footer>© 2026 NIXIC — Comics & Original Stories</footer>
+</body>
+</html>
